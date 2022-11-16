@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../component/img/logo.svg";
+import h1 from "../component/img/h1.png"
 import Wallet from "./Wallet";
 import arrow from "../component/img/arrow.png";
 import metamusk from "../component/img/metamusk.png";
@@ -15,7 +16,7 @@ const Header = () => {
       <header>
         <div className="logo">
           <img src={logo} alt="" />
-          <h1>Metabnb</h1>
+          <img src={h1} alt="" />
         </div>
         <nav>
           <ul>

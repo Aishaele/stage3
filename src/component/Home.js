@@ -14,7 +14,7 @@ const Home = () => {
                  <br /> <span> Home</span>  in the <span> Metaverse</span> </h1>
                  <p>
                  we provide you access to luxury and affordable houses 
-                 <br /> in the metaverse, get a chance to turn your 
+                  in the metaverse, get a chance to turn your 
                  <br /> imagination to reality at your comfort zone
                  </p>
                  <div className='input'>
