@@ -24,12 +24,12 @@ const Places = () => {
             <div className='style-h3'>
                 <h3> Resturant</h3>
                 <h3> Cottage</h3>
-                <h3> Cottage</h3>
-                <h3> Cottage</h3>
-                <h3> Cottage</h3>
-                <h3> Cottage</h3>
-                <h3> Cottage</h3>
-                <h3> Cottage</h3>
+                <h3> Castle</h3>
+                <h3> fantast city</h3>
+                <h3> beach</h3>
+                <h3> Carbin</h3>
+                <h3> Off-grid</h3>
+                <h3> Form</h3>
                 <div>
                     <button> Location 
                         <div className='empty'> </div>
