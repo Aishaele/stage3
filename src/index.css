@@ -218,6 +218,9 @@ li a{
     font-size: 15px;
     line-height: 20px;
 }
+.box-mage .img img{
+    width: 18em;
+}
 .box-mage .img1{
     width: 45%;
 }
