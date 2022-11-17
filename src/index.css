@@ -326,8 +326,27 @@ footer{
  header .h1{
    width: 50%;
 }
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+} 
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
 
 @media screen and (max-width: 768px) {
+    .toggle-button{
+        display: flex;
+    }
      header, nav {
         display: block;
         align-items: center;
@@ -473,5 +492,6 @@ footer{
      border-radius: 12px;
      width: 350px;
       background-color: white;
-    }   
+    } 
+     
 }

@@ -9,7 +9,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleWallet = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(!isOpen) ;
   };
   return (
     <body>
@@ -18,7 +18,11 @@ const Header = () => {
           <img src={logo} alt="" />
           <img className="h1" src={h1} alt="" />
         </div>
-        <nav>
+        <nav className="navbar">
+          <a href="/" className="toogle-button"> </a>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
           <ul>
             <li>
               {" "}

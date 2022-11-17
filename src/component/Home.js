@@ -1,8 +1,9 @@
 import React from 'react'
-import img1 from "../component/img/img1.svg"
-import img2 from "../component/img/img2.svg"
-import img3 from "../component/img/img3.svg"
-import img4 from "../component/img/img4.svg"
+// import img1 from "../component/img/img1.svg"
+// import img2 from "../component/img/img2.svg"
+// import img3 from "../component/img/img3.svg"
+// import img4 from "../component/img/img4.svg"
+import fourpic from "../component/img/fourpic.png"
 
 
 const Home = () => {
@@ -23,14 +24,7 @@ const Home = () => {
                  </div>
             </div>
             <div className='hero-img'>
-                <div className='up'>
-                    <img src={img1} alt="" />
-                    <img src={img3} alt="" />
-                </div>
-                <div className='down'>
-                    <img src={img2} alt="" />
-                    <img src={img4} alt="" />
-                </div>
+                <img src={fourpic} alt="" />
             </div>
         </div>
     </body>
